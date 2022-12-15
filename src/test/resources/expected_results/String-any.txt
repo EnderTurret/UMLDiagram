@@ -1,0 +1,102 @@
+┌────────────────────────────────────────────────────────────────┐
+│                             String                             │
+├────────────────────────────────────────────────────────────────┤
+│ + CASE_INSENSITIVE_ORDER: Comparator<String>                   │
+│ - hash: int                                                    │
+│ - serialPersistentFields: ObjectStreamField[]                  │
+│ - serialVersionUID: long                                       │
+│ - value: char[]                                                │
+├────────────────────────────────────────────────────────────────┤
+│ + String()                                                     │
+│ + String(String)                                               │
+│ + String(StringBuffer)                                         │
+│ + String(StringBuilder)                                        │
+│ + String(byte[])                                               │
+│ + String(byte[], Charset)                                      │
+│ + String(byte[], String)                                       │
+│ + String(byte[], int)                                          │
+│ + String(byte[], int, int)                                     │
+│ + String(byte[], int, int, Charset)                            │
+│ + String(byte[], int, int, String)                             │
+│ + String(byte[], int, int, int)                                │
+│ + String(char[])                                               │
+│ ~ String(char[], boolean)                                      │
+│ + String(char[], int, int)                                     │
+│ + String(int[], int, int)                                      │
+│ + charAt(int): char                                            │
+│ - checkBounds(byte[], int, int): void                          │
+│ + codePointAt(int): int                                        │
+│ + codePointBefore(int): int                                    │
+│ + codePointCount(int, int): int                                │
+│ + compareTo(String): int                                       │
+│ + compareToIgnoreCase(String): int                             │
+│ + concat(String): String                                       │
+│ + contains(CharSequence): boolean                              │
+│ + contentEquals(CharSequence): boolean                         │
+│ + contentEquals(StringBuffer): boolean                         │
+│ + copyValueOf(char[]): String                                  │
+│ + copyValueOf(char[], int, int): String                        │
+│ + endsWith(String): boolean                                    │
+│ + equals(Object): boolean                                      │
+│ + equalsIgnoreCase(String): boolean                            │
+│ + format(Locale, String, Object[]): String                     │
+│ + format(String, Object[]): String                             │
+│ + getBytes(): byte[]                                           │
+│ + getBytes(Charset): byte[]                                    │
+│ + getBytes(String): byte[]                                     │
+│ + getBytes(int, int, byte[], int): void                        │
+│ ~ getChars(char[], int): void                                  │
+│ + getChars(int, int, char[], int): void                        │
+│ + hashCode(): int                                              │
+│ + indexOf(String): int                                         │
+│ + indexOf(String, int): int                                    │
+│ ~ indexOf(char[], int, int, String, int): int                  │
+│ ~ indexOf(char[], int, int, char[], int, int, int): int        │
+│ + indexOf(int): int                                            │
+│ + indexOf(int, int): int                                       │
+│ - indexOfSupplementary(int, int): int                          │
+│ + intern(): String                                             │
+│ + isEmpty(): boolean                                           │
+│ + join(CharSequence, CharSequence[]): String                   │
+│ + join(CharSequence, Iterable<? extends CharSequence>): String │
+│ + lastIndexOf(String): int                                     │
+│ + lastIndexOf(String, int): int                                │
+│ ~ lastIndexOf(char[], int, int, String, int): int              │
+│ ~ lastIndexOf(char[], int, int, char[], int, int, int): int    │
+│ + lastIndexOf(int): int                                        │
+│ + lastIndexOf(int, int): int                                   │
+│ - lastIndexOfSupplementary(int, int): int                      │
+│ + length(): int                                                │
+│ + matches(String): boolean                                     │
+│ - nonSyncContentEquals(AbstractStringBuilder): boolean         │
+│ + offsetByCodePoints(int, int): int                            │
+│ + regionMatches(boolean, int, String, int, int): boolean       │
+│ + regionMatches(int, String, int, int): boolean                │
+│ + replace(CharSequence, CharSequence): String                  │
+│ + replace(char, char): String                                  │
+│ + replaceAll(String, String): String                           │
+│ + replaceFirst(String, String): String                         │
+│ + split(String): String[]                                      │
+│ + split(String, int): String[]                                 │
+│ + startsWith(String): boolean                                  │
+│ + startsWith(String, int): boolean                             │
+│ + subSequence(int, int): CharSequence                          │
+│ + substring(int): String                                       │
+│ + substring(int, int): String                                  │
+│ + toCharArray(): char[]                                        │
+│ + toLowerCase(): String                                        │
+│ + toLowerCase(Locale): String                                  │
+│ + toString(): String                                           │
+│ + toUpperCase(): String                                        │
+│ + toUpperCase(Locale): String                                  │
+│ + trim(): String                                               │
+│ + valueOf(Object): String                                      │
+│ + valueOf(boolean): String                                     │
+│ + valueOf(char): String                                        │
+│ + valueOf(char[]): String                                      │
+│ + valueOf(char[], int, int): String                            │
+│ + valueOf(double): String                                      │
+│ + valueOf(float): String                                       │
+│ + valueOf(int): String                                         │
+│ + valueOf(long): String                                        │
+└────────────────────────────────────────────────────────────────┘

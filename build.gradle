@@ -1,0 +1,53 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+}
+
+version = '1.1.0'
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(8)
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.ow2.asm:asm:9.4'
+    implementation 'org.ow2.asm:asm-util:9.4'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'umldiagram.Main'
+    }
+}
+
+shadowJar {
+    classifier ''
+}
+
+task sourcesJar(type: Jar, dependsOn: classes) {
+    classifier = 'sources'
+    from sourceSets.main.allSource
+}
+
+artifacts {
+    archives sourcesJar, shadowJar
+}
+
+processResources {
+    duplicatesStrategy = DuplicatesStrategy.INCLUDE
+
+    inputs.property 'version', version
+
+    from(sourceSets.main.resources.srcDirs) {
+        include 'version'
+
+        expand 'version':version
+    }
+
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'version'
+    }
+}
