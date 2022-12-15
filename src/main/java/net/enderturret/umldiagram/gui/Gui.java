@@ -1,4 +1,4 @@
-package umldiagram.gui;
+package net.enderturret.umldiagram.gui;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -30,13 +30,13 @@ import javax.swing.TransferHandler;
 import javax.swing.filechooser.FileFilter;
 import javax.swing.text.html.HTMLEditorKit;
 
-import umldiagram.IClass;
-import umldiagram.UMLDiagram;
-import umldiagram.UMLDiagrams;
-import umldiagram.source.Access;
-import umldiagram.source.IDiagramFormatter;
-import umldiagram.util.Settings;
-import umldiagram.util.Util;
+import net.enderturret.umldiagram.IClass;
+import net.enderturret.umldiagram.UMLDiagram;
+import net.enderturret.umldiagram.UMLDiagrams;
+import net.enderturret.umldiagram.source.Access;
+import net.enderturret.umldiagram.source.IDiagramFormatter;
+import net.enderturret.umldiagram.util.Settings;
+import net.enderturret.umldiagram.util.Util;
 
 /**
  * The program's GUI.

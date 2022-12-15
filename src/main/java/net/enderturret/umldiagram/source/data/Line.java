@@ -1,4 +1,4 @@
-package umldiagram.source.data;
+package net.enderturret.umldiagram.source.data;
 
 /**
  * Represents a line of (possibly formatted) text.

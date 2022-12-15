@@ -1,4 +1,4 @@
-package umldiagram.source.asm;
+package net.enderturret.umldiagram.source.asm;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -11,10 +11,10 @@ import org.objectweb.asm.Type;
 import org.objectweb.asm.signature.SignatureReader;
 import org.objectweb.asm.util.TraceSignatureVisitor;
 
-import umldiagram.UMLDiagrams;
-import umldiagram.source.data.ParameterData;
-import umldiagram.util.Pair;
-import umldiagram.util.Util;
+import net.enderturret.umldiagram.UMLDiagrams;
+import net.enderturret.umldiagram.source.data.ParameterData;
+import net.enderturret.umldiagram.util.Pair;
+import net.enderturret.umldiagram.util.Util;
 
 final class ASMUtil {
 

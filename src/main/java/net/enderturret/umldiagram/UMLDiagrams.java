@@ -1,4 +1,4 @@
-package umldiagram;
+package net.enderturret.umldiagram;
 
 import java.io.IOException;
 import java.lang.reflect.Modifier;
@@ -12,13 +12,13 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
-import umldiagram.source.Access;
-import umldiagram.source.ISource;
-import umldiagram.source.asm.BytecodeSource;
-import umldiagram.source.data.Line;
-import umldiagram.source.reflect.ReflectionSource;
-import umldiagram.util.Settings;
-import umldiagram.util.Util;
+import net.enderturret.umldiagram.source.Access;
+import net.enderturret.umldiagram.source.ISource;
+import net.enderturret.umldiagram.source.asm.BytecodeSource;
+import net.enderturret.umldiagram.source.data.Line;
+import net.enderturret.umldiagram.source.reflect.ReflectionSource;
+import net.enderturret.umldiagram.util.Settings;
+import net.enderturret.umldiagram.util.Util;
 
 /**
  * Generates UML diagrams for any class either reflectively or through bytecode analysis.

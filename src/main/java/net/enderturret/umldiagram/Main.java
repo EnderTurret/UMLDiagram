@@ -1,4 +1,4 @@
-package umldiagram;
+package net.enderturret.umldiagram;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,10 +11,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import umldiagram.gui.Gui;
-import umldiagram.source.Access;
-import umldiagram.util.Pair;
-import umldiagram.util.Settings;
+import net.enderturret.umldiagram.gui.Gui;
+import net.enderturret.umldiagram.source.Access;
+import net.enderturret.umldiagram.util.Pair;
+import net.enderturret.umldiagram.util.Settings;
 
 /**
  * It's a main class alright.

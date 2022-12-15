@@ -1,7 +1,7 @@
-package umldiagram.gui;
+package net.enderturret.umldiagram.gui;
 
-import umldiagram.source.Access;
-import umldiagram.source.IDiagramFormatter;
+import net.enderturret.umldiagram.source.Access;
+import net.enderturret.umldiagram.source.IDiagramFormatter;
 
 /**
  * The formatter used for the GUI.

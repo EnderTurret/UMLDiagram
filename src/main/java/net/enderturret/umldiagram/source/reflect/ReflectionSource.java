@@ -1,4 +1,4 @@
-package umldiagram.source.reflect;
+package net.enderturret.umldiagram.source.reflect;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -16,13 +16,13 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-import umldiagram.source.Access;
-import umldiagram.source.IDiagramFormatter;
-import umldiagram.source.ISource;
-import umldiagram.source.data.FieldData;
-import umldiagram.source.data.MethodData;
-import umldiagram.source.data.ParameterData;
-import umldiagram.util.Settings;
+import net.enderturret.umldiagram.source.Access;
+import net.enderturret.umldiagram.source.IDiagramFormatter;
+import net.enderturret.umldiagram.source.ISource;
+import net.enderturret.umldiagram.source.data.FieldData;
+import net.enderturret.umldiagram.source.data.MethodData;
+import net.enderturret.umldiagram.source.data.ParameterData;
+import net.enderturret.umldiagram.util.Settings;
 
 /**
  * A UML diagram generator source that uses reflection.

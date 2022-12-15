@@ -1,11 +1,11 @@
-package umldiagram.source.data;
+package net.enderturret.umldiagram.source.data;
 
 import java.util.Arrays;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-import umldiagram.source.Access;
-import umldiagram.source.IDiagramFormatter;
+import net.enderturret.umldiagram.source.Access;
+import net.enderturret.umldiagram.source.IDiagramFormatter;
 
 /**
  * Stores some data about a particular method.

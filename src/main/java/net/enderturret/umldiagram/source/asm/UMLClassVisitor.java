@@ -1,4 +1,4 @@
-package umldiagram.source.asm;
+package net.enderturret.umldiagram.source.asm;
 
 import java.util.List;
 
@@ -8,11 +8,11 @@ import org.objectweb.asm.MethodVisitor;
 import org.objectweb.asm.Opcodes;
 import org.objectweb.asm.Type;
 
-import umldiagram.source.Access;
-import umldiagram.source.asm.ASMUtil.Signature;
-import umldiagram.source.data.FieldData;
-import umldiagram.source.data.MethodData;
-import umldiagram.util.Settings;
+import net.enderturret.umldiagram.source.Access;
+import net.enderturret.umldiagram.source.asm.ASMUtil.Signature;
+import net.enderturret.umldiagram.source.data.FieldData;
+import net.enderturret.umldiagram.source.data.MethodData;
+import net.enderturret.umldiagram.util.Settings;
 
 final class UMLClassVisitor extends ClassVisitor {
 

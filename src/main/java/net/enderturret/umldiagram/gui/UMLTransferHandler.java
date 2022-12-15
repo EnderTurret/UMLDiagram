@@ -1,4 +1,4 @@
-package umldiagram.gui;
+package net.enderturret.umldiagram.gui;
 
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;

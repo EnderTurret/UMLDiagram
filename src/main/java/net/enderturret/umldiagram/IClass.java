@@ -1,6 +1,6 @@
-package umldiagram;
+package net.enderturret.umldiagram;
 
-import umldiagram.util.Settings;
+import net.enderturret.umldiagram.util.Settings;
 
 /**
  * Represents a sort of "pre-processed" UML diagram.

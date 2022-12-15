@@ -1,14 +1,14 @@
-package umldiagram.source;
+package net.enderturret.umldiagram.source;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.regex.Pattern;
 
-import umldiagram.source.data.FieldData;
-import umldiagram.source.data.Line;
-import umldiagram.source.data.MethodData;
-import umldiagram.util.Settings;
+import net.enderturret.umldiagram.source.data.FieldData;
+import net.enderturret.umldiagram.source.data.Line;
+import net.enderturret.umldiagram.source.data.MethodData;
+import net.enderturret.umldiagram.util.Settings;
 
 /**
  * Defines a "source" of field and method data for populating UML diagrams.

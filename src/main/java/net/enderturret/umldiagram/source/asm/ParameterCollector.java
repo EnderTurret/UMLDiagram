@@ -1,13 +1,13 @@
-package umldiagram.source.asm;
+package net.enderturret.umldiagram.source.asm;
 
 import java.util.List;
 
 import org.objectweb.asm.MethodVisitor;
 import org.objectweb.asm.Opcodes;
 
-import umldiagram.source.IDiagramFormatter;
-import umldiagram.source.data.MethodData;
-import umldiagram.source.data.ParameterData;
+import net.enderturret.umldiagram.source.IDiagramFormatter;
+import net.enderturret.umldiagram.source.data.MethodData;
+import net.enderturret.umldiagram.source.data.ParameterData;
 
 final class ParameterCollector extends MethodVisitor {
 

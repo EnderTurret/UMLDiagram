@@ -1,10 +1,10 @@
-package umldiagram;
+package net.enderturret.umldiagram;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import umldiagram.util.Util;
+import net.enderturret.umldiagram.util.Util;
 
 /**
  * Represents a chain of {@link UMLDiagram UMLDiagrams}.

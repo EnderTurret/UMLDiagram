@@ -1,4 +1,4 @@
-package umldiagram.util;
+package net.enderturret.umldiagram.util;
 
 /**
  * Your standard Pair class. It holds two values. I wonder how many pair implementations exist these days?

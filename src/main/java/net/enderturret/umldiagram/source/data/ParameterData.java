@@ -1,8 +1,8 @@
-package umldiagram.source.data;
+package net.enderturret.umldiagram.source.data;
 
 import java.util.Objects;
 
-import umldiagram.source.IDiagramFormatter;
+import net.enderturret.umldiagram.source.IDiagramFormatter;
 
 /**
  * Stores some data about a method parameter.

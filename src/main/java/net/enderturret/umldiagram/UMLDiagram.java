@@ -1,12 +1,12 @@
-package umldiagram;
+package net.enderturret.umldiagram;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import umldiagram.source.ISource;
-import umldiagram.source.data.Line;
-import umldiagram.util.Util;
+import net.enderturret.umldiagram.source.ISource;
+import net.enderturret.umldiagram.source.data.Line;
+import net.enderturret.umldiagram.util.Util;
 
 /**
  * Represents a UML diagram.

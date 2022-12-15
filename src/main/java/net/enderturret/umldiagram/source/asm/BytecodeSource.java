@@ -1,13 +1,13 @@
-package umldiagram.source.asm;
+package net.enderturret.umldiagram.source.asm;
 
 import java.util.List;
 
 import org.objectweb.asm.ClassReader;
 
-import umldiagram.source.ISource;
-import umldiagram.source.data.FieldData;
-import umldiagram.source.data.MethodData;
-import umldiagram.util.Settings;
+import net.enderturret.umldiagram.source.ISource;
+import net.enderturret.umldiagram.source.data.FieldData;
+import net.enderturret.umldiagram.source.data.MethodData;
+import net.enderturret.umldiagram.util.Settings;
 
 /**
  * A UML diagram generator source that uses the bytecode of a class.

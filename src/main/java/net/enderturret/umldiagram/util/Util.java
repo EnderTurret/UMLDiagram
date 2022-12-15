@@ -1,4 +1,4 @@
-package umldiagram.util;
+package net.enderturret.umldiagram.util;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

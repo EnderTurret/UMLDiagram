@@ -1,12 +1,12 @@
-package umldiagram.util;
+package net.enderturret.umldiagram.util;
 
 import java.util.Collections;
 import java.util.EnumSet;
 import java.util.List;
 import java.util.Set;
 
-import umldiagram.source.Access;
-import umldiagram.source.IDiagramFormatter;
+import net.enderturret.umldiagram.source.Access;
+import net.enderturret.umldiagram.source.IDiagramFormatter;
 
 /**
  * An assortment of settings to configure what exactly should be in a generated UML diagram and how it should look.

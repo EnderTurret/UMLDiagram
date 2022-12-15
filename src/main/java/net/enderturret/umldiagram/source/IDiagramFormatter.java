@@ -1,4 +1,4 @@
-package umldiagram.source;
+package net.enderturret.umldiagram.source;
 
 /**
  * Allows formatting parts of UML diagrams, allowing you to add colors or other stylistic things.

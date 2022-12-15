@@ -19,7 +19,7 @@ dependencies {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'umldiagram.Main'
+        attributes 'Main-Class': 'net.enderturret.umldiagram.Main'
     }
 }
 

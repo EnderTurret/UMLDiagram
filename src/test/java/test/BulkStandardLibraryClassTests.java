@@ -1,8 +1,9 @@
 package test;
 
-import umldiagram.UMLDiagrams;
-import umldiagram.source.Access;
-import umldiagram.util.Settings;
+import net.enderturret.umldiagram.UMLDiagrams;
+import net.enderturret.umldiagram.source.Access;
+import net.enderturret.umldiagram.util.Settings;
+
 import util.ClassFinder;
 
 /**
