@@ -1,12 +1,13 @@
 plugins {
     id 'java'
     id 'eclipse'
-    id 'com.github.johnrengelman.shadow' version '7.1.2'
+	id 'com.gradleup.shadow' version '8.3.0'
 }
 
 version = '1.1.0'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(8)
+java.withSourcesJar()
 
 repositories {
     mavenCentral()
@@ -23,17 +24,12 @@ jar {
     }
 }
 
-shadowJar {
-    classifier ''
-}
-
-task sourcesJar(type: Jar, dependsOn: classes) {
-    classifier = 'sources'
-    from sourceSets.main.allSource
+tasks.named('shadowJar', com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar) {
+    archiveClassifier = ''
 }
 
 artifacts {
-    archives sourcesJar, shadowJar
+    archives shadowJar
 }
 
 processResources {
